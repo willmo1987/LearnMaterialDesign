@@ -6,7 +6,6 @@
         <item>@string/content_recyclerview</item>
         <item>@string/content_cardview</item>
         <item>@string/content_animation</item>
-        <item>@string/content_gridlayout</item>
     </string-array>
 
     <string-array name="optionRecyclerViewArray">
