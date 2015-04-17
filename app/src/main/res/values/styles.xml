@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="baseListTextStyle">
+        <item name="android:background">@drawable/selector_main_item</item>
+    </style>
+
+    <style name="mainTextStyle" parent="baseListTextStyle">
+    </style>
+
+    <style name="toolbarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="MyPopupTheme" parent="Base.ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:colorBackground">@color/theme_color_primary</item>
+    </style>
+
+    <style name="recyclerViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:overScrollMode">never</item>
+        <item name="android:fadingEdge">none</item>
+    </style>
+
+    <style name="baseMultiTypeLayoutStyle">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="multiTypeLayoutStyle" parent="baseMultiTypeLayoutStyle">
+    </style>
+
+</resources>

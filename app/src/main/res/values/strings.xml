@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ToolBarDemo</string>
+    <string name="action_settings">settings</string>
+    <string name="btn_text">Fragment toolbar</string>
+    <string name="coming_soon">Coming soon</string>
+
+    <string name="label_main">Main</string>
+    <string name="label_detail">Detail</string>
+    <string name="label_recyclerview">RecyclerView</string>
+    <string name="label_toolbar">ToolBar</string>
+    <string name="label__rv_multitype">MultiType</string>
+
+    <!-- action menu strings-->
+    <string name="text_action_search">Search</string>
+    <string name="text_action_item1">Item1</string>
+    <string name="text_action_item2">Item2</string>
+    <string name="text_action_item3">Item3</string>
+
+    <!-- content array strings-->
+    <string name="content_toolbar">ToolBar</string>
+    <string name="content_blendent">Blendent</string>
+    <string name="content_recyclerview">RecyclerView</string>
+    <string name="content_cardview">CardView</string>
+    <string name="content_animation">Animation</string>
+    <string name="content_gridlayout">GridLayout</string>
+
+    <string name="option_recyclerview_multitype">MultiType</string>
+    <string name="option_recyclerview_animation">ItemAnimation</string>
+
+    <string name="multitype_left_string1">Hello!</string>
+    <string name="multitype_right_string1">Hello!</string>
+    <string name="multitype_left_string2">Who are you?</string>
+    <string name="multitype_right_string2">I am Will!</string>
+    <string name="multitype_left_string3">Nice to meet you!</string>
+    <string name="multitype_right_string3">Me too!</string>
+    <string name="multitype_left_string4">Your Android video is good!</string>
+    <string name="multitype_right_string4">Thanks!</string>
+
+</resources>

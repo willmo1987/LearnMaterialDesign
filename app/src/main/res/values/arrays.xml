@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="contentArray">
+        <item>@string/content_toolbar</item>
+        <item>@string/content_blendent</item>
+        <item>@string/content_recyclerview</item>
+        <item>@string/content_cardview</item>
+        <item>@string/content_animation</item>
+        <item>@string/content_gridlayout</item>
+    </string-array>
+
+    <string-array name="optionRecyclerViewArray">
+        <item>@string/option_recyclerview_multitype</item>
+        <item>@string/option_recyclerview_animation</item>
+    </string-array>
+
+    <string-array name="multitypeArray">
+        <item>@string/multitype_left_string1</item>
+        <item>@string/multitype_right_string1</item>
+        <item>@string/multitype_left_string2</item>
+        <item>@string/multitype_right_string2</item>
+        <item>@string/multitype_left_string3</item>
+        <item>@string/multitype_right_string3</item>
+        <item>@string/multitype_left_string4</item>
+        <item>@string/multitype_right_string4</item>
+    </string-array>
+
+</resources>
