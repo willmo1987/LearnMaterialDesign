@@ -6,16 +6,4 @@
         android:title="@string/text_action_search"
         app:showAsAction="ifRoom"
         app:actionViewClass="android.support.v7.widget.SearchView"/>
-    <item
-        android:id="@+id/actionItem1"
-        android:title="@string/text_action_item1"
-        app:showAsAction="never"/>
-    <item
-        android:id="@+id/actionItem2"
-        android:title="@string/text_action_item2"
-        app:showAsAction="never"/>
-    <item
-        android:id="@+id/actionItem3"
-        android:title="@string/text_action_item3"
-        app:showAsAction="never"/>
 </menu>

@@ -26,7 +26,9 @@
     <string name="content_gridlayout">GridLayout</string>
 
     <string name="option_recyclerview_multitype">MultiType</string>
+    <string name="option_recyclerview_multilayout">MultiLayout</string>
     <string name="option_recyclerview_animation">ItemAnimation</string>
+    <string name="option_recyclerview_decorator">ItemDecorator</string>
 
     <string name="multitype_left_string1">Hello!</string>
     <string name="multitype_right_string1">Hello!</string>

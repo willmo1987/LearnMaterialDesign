@@ -2,7 +2,7 @@ package me.willclub.learnmaterialdesign.activities;
 
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.view.MenuItem;
+import android.view.Menu;
 
 import me.willclub.learnmaterialdesign.R;
 
@@ -23,10 +23,9 @@ public class BlendentActivity extends BaseActivity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == android.R.id.home) {
-            finish();
-        }
-        return super.onOptionsItemSelected(item);
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_blendent, menu);
+        return super.onCreateOptionsMenu(menu);
     }
+
 }

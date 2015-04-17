@@ -6,7 +6,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import me.willclub.learnmaterialdesign.R;
-import me.willclub.learnmaterialdesign.Trace;
 
 /**
  * Created by will on 4/16/15.
@@ -34,7 +33,9 @@ public class ToolBarActivity extends BaseActivity {
 
             @Override
             public boolean onMenuItemClick(MenuItem menuItem) {
-                handleMenuItem(menuItem);
+                if (menuItem.getItemId() == android.R.id.home) {
+                    finish();
+                }
                 return false;
             }
 
@@ -53,29 +54,6 @@ public class ToolBarActivity extends BaseActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_toolbar, menu);
         return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        handleMenuItem(item);
-        return super.onOptionsItemSelected(item);
-    }
-
-    private void handleMenuItem(MenuItem menuItem) {
-        switch (menuItem.getItemId()) {
-            case android.R.id.home:
-                finish();
-                break;
-            case R.id.actionItem1:
-                Trace.d("actionItem1");
-                break;
-            case R.id.actionItem2:
-                Trace.d("actionItem2");
-                break;
-            case R.id.actionItem3:
-                Trace.d("actionItem3");
-                break;
-        }
     }
 
 }
