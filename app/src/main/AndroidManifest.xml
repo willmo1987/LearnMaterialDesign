@@ -29,6 +29,11 @@
             android:name=".activities.ToolBarActivity"
             android:screenOrientation="portrait"
             android:label="@string/label_toolbar"/>
+        <activity
+            android:name=".activities.BlendentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BlendentTheme"
+            android:label="@string/label_blendent"/>
     </application>
 
 </manifest>

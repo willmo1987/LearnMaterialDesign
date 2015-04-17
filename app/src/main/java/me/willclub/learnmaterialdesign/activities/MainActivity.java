@@ -11,7 +11,7 @@ import me.willclub.learnmaterialdesign.utils.ToastUtil;
 public class MainActivity extends BaseListActivity {
 
     private static final int POS_TOOLBAR = 0;
-    private static final int POS_THEME = 1;
+    private static final int POS_BLENDENT = 1;
     private static final int POS_RECYCLER_VIEW = 2;
     private static final int POS_CARD_VIEW = 3;
     private static final int POS_ANIMATION = 4;
@@ -29,7 +29,8 @@ public class MainActivity extends BaseListActivity {
             case POS_TOOLBAR:
                 intent = new Intent(this, ToolBarActivity.class);
                 break;
-            case POS_THEME:
+            case POS_BLENDENT:
+                intent = new Intent(this, BlendentActivity.class);
                 break;
             case POS_RECYCLER_VIEW:
                 intent = new Intent(this, RecyclerViewListActivity.class);

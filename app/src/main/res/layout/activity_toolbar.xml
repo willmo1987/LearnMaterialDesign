@@ -7,10 +7,4 @@
         android:id="@+id/toolbar"
         style="@style/toolbarStyle"
         app:popupTheme="@style/MyPopupTheme"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="@string/label_detail"
-        android:minHeight="80dp"/>
 </RelativeLayout>

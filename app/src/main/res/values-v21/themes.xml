@@ -6,6 +6,7 @@
     </style>
 
     <style name="BlendentTheme" parent="BaseBlendentTheme">
+        <item name="android:navigationBarColor">@color/theme_color_primary</item>
         <item name="android:colorButtonNormal">@color/theme_color_accent</item>
     </style>
 

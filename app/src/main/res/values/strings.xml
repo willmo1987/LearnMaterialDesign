@@ -8,6 +8,7 @@
     <string name="label_detail">Detail</string>
     <string name="label_recyclerview">RecyclerView</string>
     <string name="label_toolbar">ToolBar</string>
+    <string name="label_blendent">Blendent</string>
     <string name="label__rv_multitype">MultiType</string>
 
     <!-- action menu strings-->
