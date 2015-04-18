@@ -13,5 +13,3 @@ Content includes:
 4. CardView
 
 5. Animation
-
-6. GridLayout
