@@ -25,7 +25,7 @@ public class RecyclerViewListActivity extends BaseListActivity {
 
     @Override
     protected void onItemClick(String content, int position) {
-        if (position == 0) {
+        if (position != 3) {
             Intent intent = new Intent(this, RecyclerViewDetailActivity.class);
             intent.putExtra(Constant.INTENT_KEY_INITIAL_VALUE, position);
             startActivity(intent);

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item
+            android:id="@+id/action_anim"
+            android:title="@string/text_action_anim"
+            app:showAsAction="ifRoom">
+            <menu>
+                <item
+                    android:id="@+id/action_add"
+                    android:title="@string/text_action_add"
+                    app:showAsAction="never"/>
+                <item
+                    android:id="@+id/action_delete"
+                    android:title="@string/text_action_delete"
+                    app:showAsAction="never"/>
+            </menu>
+        </item>
+    <item
+        android:id="@+id/action_linearlayout"
+        android:title="@string/text_action_linearlayout"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_gridlayout"
+        android:title="@string/text_action_gridlayout"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_staggerlayout"
+        android:title="@string/text_action_staggerlayout"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_linearlayout"
+        android:title="@string/text_action_linearlayout"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_gridlayout"
+        android:title="@string/text_action_gridlayout"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_staggerlayout"
+        android:title="@string/text_action_staggerlayout"
+        app:showAsAction="never"/>
+</menu>

@@ -26,4 +26,27 @@
         <item>@string/multitype_right_string4</item>
     </string-array>
 
+    <string-array name="multilayoutArray">
+        <item>@string/multilayout_str1</item>
+        <item>@string/multilayout_str2</item>
+        <item>@string/multilayout_str3</item>
+        <item>@string/multilayout_str4</item>
+        <item>@string/multilayout_str5</item>
+        <item>@string/multilayout_str6</item>
+        <item>@string/multilayout_str7</item>
+        <item>@string/multilayout_str8</item>
+        <item>@string/multilayout_str9</item>
+        <item>@string/multilayout_str10</item>
+        <item>@string/multilayout_str11</item>
+        <item>@string/multilayout_str12</item>
+        <item>@string/multilayout_str13</item>
+        <item>@string/multilayout_str14</item>
+        <item>@string/multilayout_str15</item>
+        <item>@string/multilayout_str16</item>
+        <item>@string/multilayout_str17</item>
+        <item>@string/multilayout_str18</item>
+        <item>@string/multilayout_str19</item>
+        <item>@string/multilayout_str20</item>
+    </string-array>
+
 </resources>

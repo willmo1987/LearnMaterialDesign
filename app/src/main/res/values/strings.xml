@@ -1,7 +1,6 @@
 <resources>
-    <string name="app_name">ToolBarDemo</string>
+    <string name="app_name">LearnMaterialDesign</string>
     <string name="action_settings">settings</string>
-    <string name="btn_text">Fragment toolbar</string>
     <string name="coming_soon">Coming soon</string>
 
     <string name="label_main">Main</string>
@@ -10,12 +9,20 @@
     <string name="label_toolbar">ToolBar</string>
     <string name="label_blendent">Blendent</string>
     <string name="label__rv_multitype">MultiType</string>
+    <string name="label__rv_multilayout">MultiLayout</string>
+    <string name="label__rv_animated">Animated</string>
 
     <!-- action menu strings-->
     <string name="text_action_search">Search</string>
     <string name="text_action_item1">Item1</string>
     <string name="text_action_item2">Item2</string>
     <string name="text_action_item3">Item3</string>
+    <string name="text_action_linearlayout">LinearLayout</string>
+    <string name="text_action_gridlayout">GridLyout</string>
+    <string name="text_action_staggerlayout">StaggerGridLayout</string>
+    <string name="text_action_anim">Anim</string>
+    <string name="text_action_add">Add</string>
+    <string name="text_action_delete">Delete</string>
 
     <!-- content array strings-->
     <string name="content_toolbar">ToolBar</string>
@@ -37,5 +44,26 @@
     <string name="multitype_right_string3">Me too!</string>
     <string name="multitype_left_string4">Your Android video is good!</string>
     <string name="multitype_right_string4">Thanks!</string>
+
+    <string name="multilayout_str1">London</string>
+    <string name="multilayout_str2">Nanjing</string>
+    <string name="multilayout_str3">Shanghai</string>
+    <string name="multilayout_str4">Shenzhen</string>
+    <string name="multilayout_str5">Macao</string>
+    <string name="multilayout_str6">HK</string>
+    <string name="multilayout_str7">Zurich</string>
+    <string name="multilayout_str8">Luzern</string>
+    <string name="multilayout_str9">Paris</string>
+    <string name="multilayout_str10">Tibet</string>
+    <string name="multilayout_str11">HK</string>
+    <string name="multilayout_str12">Tokyo</string>
+    <string name="multilayout_str13">Berlin</string>
+    <string name="multilayout_str14">Chicago</string>
+    <string name="multilayout_str15">LA</string>
+    <string name="multilayout_str16">Huston</string>
+    <string name="multilayout_str17">NewYork</string>
+    <string name="multilayout_str18">Wuhan</string>
+    <string name="multilayout_str19">Beijing</string>
+    <string name="multilayout_str20">Xiamen</string>
 
 </resources>
