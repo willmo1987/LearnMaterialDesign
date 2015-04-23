@@ -87,7 +87,7 @@ public abstract class BaseListActivity extends BaseActivity {
 
         @Override
         public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            return new ViewHolder(layoutInflater.inflate(R.layout.list_item_main, parent, false));
+            return new ViewHolder(layoutInflater.inflate(R.layout.list_item_round, parent, false));
         }
 
         @Override

@@ -6,6 +6,7 @@ import android.support.v4.app.FragmentTransaction;
 import me.willclub.learnmaterialdesign.R;
 import me.willclub.learnmaterialdesign.fragments.BaseFragment;
 import me.willclub.learnmaterialdesign.fragments.RVCommonFragment;
+import me.willclub.learnmaterialdesign.fragments.RVDecorationFragment;
 import me.willclub.learnmaterialdesign.fragments.RVMultiTypeFragment;
 import me.willclub.learnmaterialdesign.utils.Constant;
 
@@ -40,7 +41,7 @@ public class RecyclerViewDetailActivity extends BaseActivity {
                 bundle.putBoolean(Constant.BUNDLE_KEY_ANIMATED, true);
                 break;
             case Constant.RV_DECORATOR:
-//                fragment = new RVDecoratorFragment();
+                fragment = new RVDecorationFragment();
                 break;
         }
         if (fragment != null) {

@@ -118,7 +118,7 @@ public class RVCommonFragment extends BaseFragment {
 
         @Override
         public CommonViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            return new CommonViewHolder(layoutInflater.inflate(R.layout.list_item_main, parent, false));
+            return new CommonViewHolder(layoutInflater.inflate(R.layout.list_item_round, parent, false));
         }
 
         @Override

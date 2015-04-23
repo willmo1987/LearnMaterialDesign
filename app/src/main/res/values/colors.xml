@@ -19,7 +19,7 @@
     <color name="text_color_dark">#FF212121</color>
 
     <!-- background colors-->
-    <color name="bg_main_text_pressed">#3D000000</color>
+    <color name="bg_main_text_pressed">#1F000000</color>
     <color name="bg_list_item_left_type">#FF1A98DD</color>
     <color name="bg_list_item_right_type">#FFFF5F3F</color>
 

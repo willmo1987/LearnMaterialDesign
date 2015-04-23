@@ -2,7 +2,7 @@
 <resources>
 
     <style name="baseListTextStyle">
-        <item name="android:background">@drawable/selector_main_item</item>
+        <item name="android:background">@drawable/selector_round_item</item>
     </style>
 
     <style name="mainTextStyle" parent="baseListTextStyle">
