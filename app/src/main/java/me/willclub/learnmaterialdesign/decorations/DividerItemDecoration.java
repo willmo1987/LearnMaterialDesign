@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 /**
+ * RecyclerView中实现divider功能
  * 只支持LinearLayoutManager
  */
 public class DividerItemDecoration extends RecyclerView.ItemDecoration {
@@ -23,15 +24,17 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration {
         if (dividerDrawable == null) {
             return;
         }
+
         //如果是第一个item，不需要divider，所以直接return
         if (parent.getChildLayoutPosition(view) < 1) {
             return;
         }
+
+        //相当于给itemView设置margin，给divider预留空间
         int layoutOrientation = getOrientation(parent);
         if (layoutOrientation == LinearLayoutManager.VERTICAL) {
             outRect.top = dividerDrawable.getIntrinsicHeight();
-        }
-        else if(layoutOrientation == LinearLayoutManager.HORIZONTAL) {
+        } else if(layoutOrientation == LinearLayoutManager.HORIZONTAL) {
             outRect.left = dividerDrawable.getIntrinsicWidth();
         }
     }
@@ -41,17 +44,24 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration {
         if (dividerDrawable == null) {
             return;
         }
+
         LinearLayoutManager layoutManager = getLinearLayoutManger(parent);
+        if (layoutManager == null) {
+            return;
+        }
+
         int firstVisiblePosition = layoutManager.findFirstVisibleItemPosition();
         int orientation = getOrientation(layoutManager);
         int childCount = parent.getChildCount();
         if (orientation == LinearLayoutManager.VERTICAL) {
             int right = parent.getWidth();
             for (int i=0; i<childCount; i++) {
+
                 //判断第一个item的下标是不是0，是则return，不需要draw divider
                 if (i == 0 && firstVisiblePosition == 0) {
                     continue;
                 }
+
                 View childView = parent.getChildAt(i);
                 RecyclerView.LayoutParams params = (RecyclerView.LayoutParams) childView.getLayoutParams();
                 int left = parent.getPaddingLeft() + childView.getPaddingLeft();
@@ -60,12 +70,12 @@ public class DividerItemDecoration extends RecyclerView.ItemDecoration {
                 dividerDrawable.setBounds(left, top, right, bottom);
                 dividerDrawable.draw(c);
             }
-        }
-        else if(orientation == LinearLayoutManager.HORIZONTAL) {
+        } else if(orientation == LinearLayoutManager.HORIZONTAL) {
             for (int i=0; i<childCount; i++) {
                 if (i == 0 && firstVisiblePosition == 0) {
                     continue;
                 }
+
                 View childView = parent.getChildAt(i);
                 RecyclerView.LayoutParams params = (RecyclerView.LayoutParams) childView.getLayoutParams();
                 int top = parent.getPaddingTop() + childView.getPaddingTop();
